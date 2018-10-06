@@ -2078,7 +2078,12 @@ packages:
 
     "Alexey Khudyakov <alexey.skladnoy@gmail.com> @Shimuuar":
         - histogram-fill
+        - histogram-fill-binary
+        - histogram-fill-cereal
         - fixed-vector
+        - fixed-vector-binary
+        - fixed-vector-cereal
+        - fixed-vector-cborg
         - fixed-vector-hetero
         - type-level-numbers
 
@@ -3801,7 +3806,6 @@ packages:
         - fgl < 0
         - gtk2hs-buildtools < 0
         - hdevtools < 0
-        - histogram-fill < 0
         - hprotoc < 0
         - jni < 0
         - large-hashable < 0
